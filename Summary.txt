@@ -1,0 +1,78 @@
+✅ Selenium Automation Project Summary Report
+Project Name: Hello_World_Selenium_Project
+Author: Malik Davis
+Date: April 23, 2025
+
+🧪 Project Overview:
+This project demonstrates a complete Selenium automation framework using Java, Maven, TestNG, and Apache POI. It includes multiple automation tasks such as basic and advanced browser automation, data-driven testing using Excel, and integration of TestNG test structures.
+
+📌 Key Components Implemented:
+1. BasicAutomation.java
+Launches a browser and navigates to Wikipedia.
+
+Validates page title and captures a screenshot.
+
+2. AdvancedAutomation.java
+Demonstrates interaction with dropdowns, checkboxes, radio buttons, and alerts.
+
+Implements both implicit and explicit waits.
+
+3. TestAutomationTest.java
+Uses TestNG to structure tests with @BeforeMethod, @Test, and @AfterMethod.
+
+Executes a simple automated browser task and generates TestNG reports.
+
+4. DataDrivenTest.java
+Reads search terms from an Excel file (testdata.xlsx) using Apache POI.
+
+Performs dynamic browser searches and prints result page titles for each term.
+
+📁 Project Structure:
+swift
+Copy
+Edit
+Hello_World_Selenium_Project/
+├── pom.xml
+├── testdata.xlsx (Excel file for data-driven testing)
+├── src/
+│   ├── main/java/com/saint/
+│   │   ├── HelloWorld.java
+│   │   ├── BasicAutomation.java
+│   │   ├── AdvancedAutomation.java
+│   │   └── DataDrivenTest.java
+│   └── test/java/com/saint/
+│       ├── BasicSeleniumTest.java
+│       └── TestAutomationTest.java
+⚙️ Tools & Dependencies:
+Java 17
+
+Maven 3.9.6
+
+Selenium 4.8.0
+
+TestNG 7.4.0
+
+Apache POI 5.2.3
+
+🧠 What I Learned:
+How to build automation scripts using Selenium WebDriver in Java.
+
+How to structure a Maven-based automation project.
+
+How to read Excel data using Apache POI.
+
+How to run and report tests using TestNG.
+
+How to debug and resolve runtime and build-time errors.
+
+🔧 Challenges Faced:
+Initial issues with Java version and environment setup.
+
+Errors related to TestNG imports due to missing dependencies.
+
+Excel not found or invalid format errors.
+
+ChromeDriver CDP warnings and WebSocket connection issues (resolved by allowing proper permissions and ensuring browser compatibility).
+
+✅ Status:
+All test classes were compiled and executed successfully. Screenshots were captured, Excel data was read correctly, and automated flows worked as expected.
